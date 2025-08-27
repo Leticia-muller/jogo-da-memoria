@@ -1,0 +1,48 @@
+*{
+ box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 129, 129);
+    overflow: hidden;
+    font-family: "Libertinus Serif Display", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(19, 69, 109);
+}
+
+a:hover{
+    background-color: rgb(82, 255, 197);
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 10px, 10px;
+    transition: 1s;
+}
+section:hover{
+    box-shadow: 10px 10px 10px aqua;
+    padding: 60px;
+    transition: 1s;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(236, 236, 236);
+}
